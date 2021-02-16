@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/myapp/static/css/main.b257b1ee.chunk.css",
+    "main.js": "/myapp/static/js/main.9a9ecdf8.chunk.js",
+    "main.js.map": "/myapp/static/js/main.9a9ecdf8.chunk.js.map",
+    "runtime-main.js": "/myapp/static/js/runtime-main.9011cbcc.js",
+    "runtime-main.js.map": "/myapp/static/js/runtime-main.9011cbcc.js.map",
+    "static/js/2.3ead4107.chunk.js": "/myapp/static/js/2.3ead4107.chunk.js",
+    "static/js/2.3ead4107.chunk.js.map": "/myapp/static/js/2.3ead4107.chunk.js.map",
+    "index.html": "/myapp/index.html",
+    "precache-manifest.08ff4e387ba37c5ca32d95a8e69b7868.js": "/myapp/precache-manifest.08ff4e387ba37c5ca32d95a8e69b7868.js",
+    "service-worker.js": "/myapp/service-worker.js",
+    "static/css/main.b257b1ee.chunk.css.map": "/myapp/static/css/main.b257b1ee.chunk.css.map",
+    "static/js/2.3ead4107.chunk.js.LICENSE.txt": "/myapp/static/js/2.3ead4107.chunk.js.LICENSE.txt",
+    "static/media/computer-icon.png": "/myapp/static/media/computer-icon.3786d5b8.png",
+    "static/media/user.png": "/myapp/static/media/user.a69029e0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9011cbcc.js",
+    "static/js/2.3ead4107.chunk.js",
+    "static/css/main.b257b1ee.chunk.css",
+    "static/js/main.9a9ecdf8.chunk.js"
+  ]
+}
