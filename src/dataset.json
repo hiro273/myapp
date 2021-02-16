@@ -1,0 +1,71 @@
+{
+  "init": {
+      "answers": [
+          {"content": "案件が欲しい", "nextId": "job_offer"},
+          {"content": "質問があります", "nextId": "consultant"},
+          {"content": "転職したい", "nextId": "community"},
+          {"content": "無いにも無い", "nextId": "dating"}
+      ],
+      "question": "こんにちは！ご用件はなんでしょうか？"
+  },
+  "job_offer": {
+      "answers": [
+          {"content": "website", "nextId": "website"},
+          {"content": "webアプリ", "nextId": "webapp"},
+          {"content": "ios,android", "nextId": "automation_tool"},
+          {"content": "その他", "nextId": "other_jobs"}
+      ],
+      "question": "どのようなお仕事でしょうか？"
+  },
+  "website": {
+      "answers": [
+          {"content": "問い合わせる", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "Webサイトについてですね。"
+  },
+  "webapp": {
+      "answers": [
+          {"content": "問い合わせる", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "Webアプリについてですね。"
+  },
+  "automation_tool": {
+      "answers": [
+          {"content": "問い合わせる", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "ios,indroidですね。"
+  },
+  "other_jobs": {
+      "answers": [
+          {"content": "問い合わせる", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "その他についてですね。"
+  },
+  "consultant": {
+      "answers": [
+          {"content": "googleへ", "nextId": "https://www.google.com"},
+          {"content": "ポートフォリオの作り方について", "nextId": "community"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "なんでしょうか？"
+  },
+  "community": {
+      "answers": [
+          {"content": "。。。", "nextId": "init"},
+          {"content": "......", "nextId": "init"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "わかりません"
+  },
+  "dating": {
+      "answers": [
+          {"content": "DMする", "nextId": "https://www.google.com"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "ありがとうございました。"
+  }
+}
